@@ -1,0 +1,5 @@
+[deps]
+matplotlib = ""
+cma = ">=4.0.0"
+numpy = ""
+python = ">=3.11,<4"

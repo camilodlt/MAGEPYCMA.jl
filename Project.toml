@@ -3,7 +3,21 @@ uuid = "f841c201-f6fd-4ce3-a497-54af563fbcd3"
 authors = ["Camilo <dlt.camilo@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+ReTest = "e0db7c4e-2690-44b9-bad6-7687da720f89"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+SearchNetworks = "17666995-d420-48ac-8d7c-8a155fef8e5d"
+
 [compat]
+CondaPkg = "0.2.33"
+Logging = "1.11.0"
+PythonCall = "0.9.28"
+ReTest = "0.3.4"
+Revise = "3.11.0"
+SearchNetworks = "1.0.0"
 julia = "1.6.7"
 
 [extras]
