@@ -1,6 +1,8 @@
 using MAGE_PYCMA
 using Test
+using PythonCall
 
 @testset "MAGE_PYCMA.jl" begin
-    # Write your tests here.
+    include("pycma_loading.jl")
+    include("api.jl")
 end
