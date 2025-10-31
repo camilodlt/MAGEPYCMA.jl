@@ -10,11 +10,7 @@ PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 
 [compat]
-CondaPkg = ">=0.2.33"
-Logging = ">=1.11.0"
-PythonCall = ">=0.9.28"
-Revise = ">=3.11.0"
-julia = "1.6.7"
+PythonCall = ">=0.9.0"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
