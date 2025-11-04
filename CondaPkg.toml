@@ -2,5 +2,5 @@
 matplotlib = ""
 cma = ">=4.0.0"
 numpy = ""
-python = ">=3.11,<4"
+python = ">=3.11,<3.13"
 pandas = ">=2"
