@@ -80,8 +80,12 @@ function plot_and_save_cma(cma::CMAEvolutionStrategyWrapper, name::String = "cma
     plot_cma(cma)
     return pyexec(
         """
+        import matplotlib
+        matplotlib.use('Agg')
         from matplotlib import pyplot as plt
+        plt.ioff()
         plt.savefig(name)
+        plt.close()
         """, Main, (name = name,)
     )
 end
